@@ -1,0 +1,15 @@
+[submodule "modules/prompt/purest"]
+	path = modules/prompt/purest
+	url = git://github.com/JR4er/purest.git
+[submodule "modules/zsh-completions"]
+	path = modules/completion
+	url = https://github.com/zsh-users/zsh-completions
+[submodule "modules/syntax-highlighting"]
+	path = modules/syntax-highlighting
+	url = https://github.com/zdharma/fast-syntax-highlighting
+[submodule "modules/autosuggestions"]
+	path = modules/autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "modules/history-substring-search"]
+	path = modules/history-substring-search
+	url = https://github.com/zsh-users/zsh-history-substring-search
