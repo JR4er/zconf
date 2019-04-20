@@ -1,4 +1,4 @@
-HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}"/zsh/zhistory 
+HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}"/zsh/zhistory 
 HISTSIZE=10000
 SAVEHIST=10000
 
