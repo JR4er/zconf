@@ -37,9 +37,9 @@ if zstyle -T ':zconf:module:utility' safe-ops; then
 	alias ln='lni'
 fi
 
-if (( $+commands[exa] )); then
+if (( $+commands[lsd] )); then
 	if zstyle -t ':zconf:module:utility:ls' color; then
-		alias ls="exa"
+		alias ls="lsd"
 	else
 		alias ls="${aliases[ls]:-ls} -F"
 	fi
