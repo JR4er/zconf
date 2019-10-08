@@ -14,6 +14,7 @@ autoload zargs zmv
 zstyle ':zconf:mod' load \
 	'environment' \
 	'editor' \
+	'skim' \
 	'history' \
 	'utility' \
 	'completion' \
